@@ -1,20 +1,20 @@
- import NetflixSeries from './components/NetflixSeries';
-import'./components/Netflix.module.css';
-import "./components/Netflix.css";
+//  import NetflixSeries from './components/NetflixSeries';
+// import'./components/Netflix.module.css';
+// import "./components/Netflix.css";
 // import {EventHandling} from './components/EventHandling';
 //import {EventProps} from './components/EventProps';
-import "./components/EV.css";
+//import "./components/EV.css";
 // import {EventPropagation} from './components/EventPropagation';
 //import {Bootstrap} from './components/Bootstrap';
 // import {State} from './components/hooks/state';
-import DericedState from './components/DericedState';
-
+//import DericedState from './components/DericedState';
+import SeriesCard from './components/SeriesCard';
 export const App = () => {
   return (
    <>
    <section className="main-div">
    {/* <h1 className="card-heading">List of best Netflix series</h1> */}
-* <NetflixSeries />  
+{/* <NetflixSeries />   */}
 {/* <EventHandling />  */}
 {/* <EventProps />  */}
 {/* <EventPropagation/> */}
@@ -22,6 +22,7 @@ export const App = () => {
       {/* <State />
       <Sibling/> */}
       {/* <DericedState /> */}
+      <SeriesCard />
     </section>
  
     </>
